@@ -1,0 +1,128 @@
+
+
+.nav .nav-link.active {
+    background-color: #dfa81d;
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand a,
+.navbar-brand:hover,
+.navbar-brand:active,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link, 
+#cabecalho .navbar-brand,
+#cabecalho .navbar-brand a,
+#cabecalho .navbar-brand:hover,
+#cabecalho .navbar-brand:active,
+.titulo,
+.subtitulo,
+#contato h3{
+    font-family: "bdr-mono", sans-serif;
+    font-weight: 500;
+}
+
+
+
+.titulo{
+    font-weight: 600;
+    color: #dfa81d;
+}
+
+#cabecalho .navbar-brand a{
+    font-size: 24px;
+}
+
+#cabecalho .nav .nav-link{
+    font-size: 14px;
+}
+
+p, label{
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+strong,
+h5{
+    color: #dfa81d;
+}
+
+.subtitulo{
+    color: #fff;
+    background-color: rgba(233, 168, 29, .5);
+    font-size: 1.5em;
+}
+
+#nos{
+    background-color: #232323;
+}
+
+#servicos{
+    background-color: #353535;
+}
+
+#equipamentos{
+    background-color: #232323;
+}
+
+#portfolio{
+    background-color: #353535;
+}
+
+#contato{
+    background-color: #232323;
+}
+
+
+.nav-cardapio .nav-link:hover{
+    color: #dfa81d;
+}
+
+#equipamentos .col-md-10{
+    background-color: #fff;
+}
+
+#equipamentos .col-md-10 p{
+    color: #232323;
+}
+
+#contato h3{
+    color: #fff;
+    font-size: 1em;
+}
+
+.btn{
+    background-color: #dfa81d;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+    color:#dfa81d;
+}
+
+@media screen and (max-width:767){
+    .carousel-item img{
+        height: 280px;
+    }
+
+    #nos .col-md-5 im{
+        height: 180px;
+    }
+}
+
+
